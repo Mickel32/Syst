@@ -1,0 +1,33 @@
+@import url(menu.css);
+@import url(index/banner1.css);
+@import url(index/slogan.css);
+@import url(index/bannerserv.css);
+@import url(pie\ de\ pagina.css);
+@import url(index/certificados.css);
+@import url(Nosotros/bannernos.css);
+@import url(Nosotros/bannerequipo.css);
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.principal{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+body{
+overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+footer{
+    top: 20px;
+}

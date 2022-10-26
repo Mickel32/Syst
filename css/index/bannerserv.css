@@ -1,0 +1,58 @@
+.servicios{
+    display: flex;
+    margin-top: 20px;
+    background-color: #666B7180;
+    height: 500px;
+    width: 120%;
+    flex-wrap: wrap;
+}
+
+.servicios h2{
+    position: relative;
+    top: 20px;
+    left: 35%;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
+
+.services{
+    left: -210px;
+    position: relative;
+    top: 100px;
+    max-width: 100%;
+    height: 300px;
+    
+}
+
+.services img{
+    margin-left: 80px;
+    width: 250px;
+    height: 300px;
+    
+}
+
+.descripcion:hover{
+    background-color: rgba(255, 255, 255, .5);
+}
+.descripcion{
+    left: 80px;
+    display: inline-block;
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    transition: background-color .5s;
+}
+
+.descripcion h3{
+    position: relative;
+    width: 150px;
+    height: 60px;
+    top: 170px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.descripcion a{
+    text-decoration: none;
+}

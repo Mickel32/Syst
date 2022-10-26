@@ -1,0 +1,14 @@
+
+.equipo{
+    background-color: #606060;
+    display: flex;
+    position: relative;
+    top: 100px;
+    height: 500px;
+    width: 100%;
+    padding: 0%;
+}
+
+.espacio{
+    height: 90px;
+}
