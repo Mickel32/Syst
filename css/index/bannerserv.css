@@ -7,9 +7,9 @@
     text-align: center;
 }
 .contservices{
-    margin-left: 20%;
     display: flex;
     gap: 10%;
+    justify-content: center;
 }
 
 .servicios h2{
@@ -20,19 +20,14 @@
 }
 
 .services{
-    left: -210px;
     position: relative;
     top: 80px;
-    max-width: 100%;
     height: 200px;
-    
 }
 
 .services img{
-    /*margin-left: 80px;*/
     width: 250px;
     height: 100%;
-    
 }
 
 .descripcion:hover{
@@ -41,7 +36,7 @@
 .descripcion{
     left: 0px;
     display: inline-block;
-    width: 250px;
+    width: 100%;
     height: 100%;
     position: absolute;
     transition: background-color .5s;
@@ -51,7 +46,7 @@
     position: absolute;
     width: 150px;
     height: 50px;
-    top: 100px;
+    top: 50%;
     padding: 10px;
     color: #ffffff;
     background-color: rgba(0, 0, 0, .9);
