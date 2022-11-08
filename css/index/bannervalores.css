@@ -8,6 +8,7 @@
     flex-direction: column;
     position: relative;
     gap: 2rem;
+    margin-bottom: 2rem;
 }
 .contenido{
     display: flex;
