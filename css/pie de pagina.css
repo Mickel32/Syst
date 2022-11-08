@@ -1,7 +1,6 @@
 #piedepagina{
     display: flex;
     flex-flow: column wrap;
-    margin-top: 30px;
     width: 100%;
     background-color:  rgba(39, 96, 171, .9);
     background-size: 100% 20%;

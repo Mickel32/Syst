@@ -1,11 +1,5 @@
 @import url(menu.css);
-@import url(index/bannerclientes.css);
-@import url(index/slogan.css);
-@import url(index/bannerserv.css);
-@import url(pie\ de\ pagina.css);
-@import url(index/bannervalores.css);
-@import url(Nosotros/bannernos.css);
-@import url(Nosotros/bannerequipo.css);
+@import url(/css/pie\ de\ pagina.css);
 
 * {
     margin: 0%;

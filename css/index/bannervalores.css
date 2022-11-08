@@ -1,24 +1,33 @@
+@import url(../estilos.css);
+@import url(/css/index/bannerclientes.css);
+@import url(/css/index/bannerserv.css);
+@import url(/css/index/slogan.css);
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 2rem;
+}
 .contenido{
-    display: block flex;
+    display: flex;
+    position: relative;
     width: 300%;
     margin: 0;
     padding: 0;
     height:800px;
-    align-items: center;
 }
 
 .banner{
-    position: absolute;
-    top: 10%;
+    padding-top: 5%;
+    position: relative;
+    top: 25%;
     height: 60%;
     width: 33.5%;
-    bottom: -15%;
-    background-color: rgba(85, 85, 85, 0.5);
-    
+    background-color: rgba(85, 85, 85, 0.5);    
 }
 
 .banner h2{
-    margin-top: 30%;
     color: #ffffff;
     text-align: center;
 }
@@ -32,11 +41,13 @@
 }
 
 .imagenes{
+    position: relative;
     width: 100%;
     height: 100%; 
 }
 
 .imagenes img{
+    position: absolute;
     width: 100%;
     height: 100%;
 }

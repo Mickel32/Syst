@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url(/css/Nosotros/bannerhistoria.css);
+@import url(/css/estilos.css);
+@import url(/css/Nosotros/bannerequipo.css);
+@import url(/css/Nosotros/bannernos.css);
 
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    top: 5vh;
+    position: relative;
+    gap: 2rem;
+}
 
 .nosotros{
     display: flex;
     position: relative;
-    top: 70px;
     height: 60vh;
     width: 100%;
     padding: 0%;   
@@ -15,6 +25,7 @@
     background-image: url(../../img/people-working-in-front-of-the-computer-3184357.jpg);
     background-size: cover ;
     background-repeat: no-repeat;
+    background-position: -10%;
 }
 
 #logo{
