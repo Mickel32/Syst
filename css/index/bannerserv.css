@@ -1,5 +1,4 @@
 .servicios{
-    background-color: #666B7180;
     height: 400px;
     width: 100%;
     align-items: center;
@@ -12,6 +11,7 @@
 }
 
 .servicios h2{
+    color: whitesmoke;
     position: relative;
     top: 20px;
     font-family: 'Playfair Display', serif;
@@ -20,8 +20,8 @@
 
 .services{
     position: relative;
-    top: 80px;
-    height: 200px;
+    top: 60px;
+    height: 250px;
 }
 
 .services img{

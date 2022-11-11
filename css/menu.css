@@ -39,7 +39,7 @@ li.nav-menu{
 }
 
 li a{
-    color: #000000;
+    color: #ffff;
     text-decoration: none;
     font-family: 'Playfair Display', serif;
     letter-spacing: 0.5mm;
@@ -47,7 +47,7 @@ li a{
 
 .titulo a{
     text-decoration: none;
-    color: #000000;
+    color: #ffff;
 }
 h1{
     font-family: 'Playfair Display', serif;
