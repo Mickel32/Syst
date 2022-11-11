@@ -13,6 +13,7 @@
 }
 
 .contenedorcliente{
+    width: 100%;
     position: relative;
     display: flex;
 }
@@ -43,7 +44,6 @@
     flex-flow: row wrap;
     height: 100%;
     gap: 5%;
-    width: 100%;
 }
 
 
