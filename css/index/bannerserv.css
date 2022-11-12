@@ -6,8 +6,8 @@
 }
 .contservices{
     display: flex;
-    gap: 10%;
-    justify-content: center;
+    /* gap: 10%; */
+    justify-content: space-around;
 }
 
 .servicios h2{
