@@ -16,7 +16,7 @@
 
 .pHistoria p{
     width: 75%;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     color: rgb(255, 255, 255);
     line-height: 1.5em;
 }
@@ -27,4 +27,14 @@
 
 .imgHistoria img{
     width: 100%;
+}
+
+@media (min-width: 720px){
+    .historia{
+        height: 60vh;
+    }
+
+    .pHistoria p{
+        font-size: 1.1rem;
+    }
 }

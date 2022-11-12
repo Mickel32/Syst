@@ -54,3 +54,13 @@ img {
     /* width: 100%; */
     height: 95%;
 }
+
+@media (min-width: 720px){
+    .contenedor{
+        top: 7.5vh;
+    }
+
+    img{
+        height: 100%;
+    };
+}
