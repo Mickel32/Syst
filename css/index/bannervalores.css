@@ -68,3 +68,9 @@
     50%{ margin-left: -200%;}
     70%{ margin-left: -200%;}
 }
+
+@media (min-width: 720px){
+    .contenido{
+        height: 630px;
+    }
+}
