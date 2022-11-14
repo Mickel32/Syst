@@ -2,23 +2,22 @@
 #piedepagina{
     bottom: 0%;
     display: flex;
-    flex-flow: column wrap;
+    position: relative;
     width: 100%;
-    background-color:  rgba(39, 96, 171, .9);
-    background-size: 100% 20%;
+    height: 130px;
+    align-items: center;
+    flex-direction: column;
+    gap: .2rem;
 }
 
 .logopie{
-    margin-left: 130px;
     display: flex;
-    margin-top: 30px;
-    flex: 1 1 auto;
 }
 
 .logopie img{
-    border-radius: 10px;
-    width: 32px;
-    height: 32px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40x;
 }
 
 .logopie h1{
@@ -30,22 +29,7 @@
 
 }
 
-.contactenos{
-    margin-top: -5%;
-    margin-right: 20px;
-    height: 150px;
-}
-
-.contactenos h2{
-    font-family: 'Playfair Display', serif;
-    font-weight: normal;
-    font-size: 20px;
-    text-align: right;
-    color: #ffffff;  
-}
-
 .contactenos p{
-    margin-top: 10px;
     font-weight: normal;
     font-size: 15px;
     text-align: right;
@@ -54,15 +38,8 @@
 
 }
 
-.correo{
-    top: -10PX;
-    text-decoration: none;
-    color: #ffffff;
-}
-
 .social{
     position: relative;
-    margin-left: 120px;
 }
 
 .social a{

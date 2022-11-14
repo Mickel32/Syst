@@ -3,7 +3,7 @@ $(document).ready(function(){
     $('#logo').css({"background-color": "#FFFFFF10"});
     $('.text-menu').css({"color": "#FFFFFF"});
     $(window).on('scroll', function(){
-        if ($(window).scrollTop() > 300){
+        if ($(window).scrollTop() > 100){
             $('#logo').css({"background-color": "#FFFFFF"});
             $('.text-menu').css({"color": "#000000"});
         }else{
