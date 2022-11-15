@@ -37,7 +37,7 @@
     position: absolute;
     width: 25%;
     height: 50%;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
     background-color: rgba(255, 255, 255, .1);
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
@@ -87,6 +87,7 @@
     font-weight: 900;
 }
 
+
 @media (min-width: 720px) {
     .texto h3, .texto h2{
         font-size: 2rem;
@@ -100,6 +101,7 @@
     .autor{
         font-size: .8rem;
     }
+
 }
 
 

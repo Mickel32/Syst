@@ -76,3 +76,12 @@
     align-items: center;
 }
 
+@media (min-width: 720px) {
+    .bannercap{
+        height: 1200px;
+        top: -100px;
+        margin-bottom: -100px;
+    }
+
+}
+

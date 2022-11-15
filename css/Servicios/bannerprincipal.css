@@ -1,0 +1,48 @@
+@import url(/css/estilos.css);
+@import url(/css/Servicios/bannerserv.css);
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    top: 8vh;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.bannerprincipal{
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.fondo video{
+    width: 100%;
+}
+
+.textoprincipal{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 40%;
+    background: linear-gradient(180deg, rgba(255,255,255,.0) 0%, rgba(80,80,80,.5) 55%, rgba(9,9,9,.5) 100%);;
+    text-align: center;
+    height: 40%;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0,0.2);
+    gap: 3rem;
+
+}
+
+.textoprincipal h2{
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+.textoprincipal p{
+    padding: 10% 20%;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-shadow: -1px 1px 5px rgb(255, 81, 0);
+}
