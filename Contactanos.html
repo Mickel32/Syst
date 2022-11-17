@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="shortcut icon" href="img/logotipo.png">
     <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="/css/Contactanos/bannercontactanos.css">
     <script src="https://kit.fontawesome.com/3f1248c92f.js" crossorigin="anonymous"></script>
@@ -57,20 +57,20 @@
                 <div class="formtop">
                     <div class="nombre">
                         <label for="Nombre">Nombre</label>
-                        <input type="text" id="Nombre" name="name" class="textoform" >
+                        <input type="text" id="Nombre" name="name" class="textoform" required>
                     </div>
                     <div class="telefono">
                         <label for="Telefono\">Telefono</label>
-                        <input type="text" id="Telefono" name="phone" class="textoform" >
+                        <input type="number" id="Telefono" name="phone" class="textoform" required >
                     </div>
                 </div>
                 <div class="formmiddle">
                     <label for="Mensaje">Mensaje</label>
-                    <textarea id="Mensaje" cols="30" rows="10" name="message"></textarea>
+                    <textarea id="Mensaje" cols="30" rows="10" name="message"></textarea required>
                 </div>
                 <div class="formbottom">
                     <label for="Email">Email</label>
-                    <input type="email" id="Email" class="textoform" name="email" >
+                    <input type="email" id="Email" class="textoform" name="email" required>
                 </div>
                 <input type="submit" id="button" value="Enviar" >
             </form>
@@ -95,15 +95,21 @@
 
                 const serviceID = 'default_service';
                 const templateID = 'template_o7x4t1e';
-
+                
+                
                 emailjs.sendForm(serviceID, templateID, this)
                     .then(() => {
                         btn.value = 'Enviar';
-                        alert('Sent!');
+                        alert('Mensaje Enviado');
+                        document.getElementById('Nombre').value ='';
+                        document.getElementById('Telefono').value ='';
+                        document.getElementById('Mensaje').value ='';
+                        document.getElementById('Email').value ='';
                     }, (err) => {
                         btn.value = 'Enviar';
                         alert(JSON.stringify(err));
                     });
+                    
             });
 </script>
 <footer>
