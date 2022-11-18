@@ -60,6 +60,14 @@ img{
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
+.contserv.left .textserv p{
+    padding: 0% 0% 0% 5%;
+}
+
+.contserv.right .textserv p{
+    padding: 0% 5% 0% 0%;
+}
+
 
 .contserv.left .textserv h2{
     left: -40px;
@@ -92,5 +100,8 @@ img{
     .bannerserv{
         height: 2700px;
         gap: 2rem;
+    }
+    .textserv p{
+        padding: 0% ;
     }
 }
