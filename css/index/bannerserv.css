@@ -6,7 +6,6 @@
 }
 .contservices{
     display: flex;
-    /* gap: 10%; */
     justify-content: space-around;
 }
 
@@ -21,11 +20,12 @@
 .services{
     position: relative;
     top: 60px;
+    width: 250px;
     height: 250px;
 }
 
 .services img{
-    width: 250px;
+    width: 100%;
     height: 100%;
 }
 
@@ -41,16 +41,17 @@
     transition: background-color .5s;
 }
 
-.descripcion h3{
-    position: absolute;
-    width: 150px;
-    height: 50px;
+.descripcion a{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    align-items: center;
+    position: relative;
+    width: 60%;
+    height: 25%;
     top: 50%;
-    padding: 10px;
+    padding: 0 5%;
     color: #ffffff;
     background-color: rgba(0, 0, 0, .9);
-}
-
-.descripcion a{
     text-decoration: none;
 }
