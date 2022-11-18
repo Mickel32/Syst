@@ -3,8 +3,8 @@
     position: relative;
     flex-direction: column;
     align-items: center;
-    height: 2700px;
-    gap: 2rem;
+    height: 3200px;
+    gap: 5rem;
     width: 100%;
     overflow: hidden;
     padding-top: 2%;
@@ -15,7 +15,7 @@
     overflow: hidden;
     display: flex;
     position: absolute;
-    height: 400px;
+    height: 500px;
     width: 70%;
 }
 
@@ -26,7 +26,7 @@ img{
 .contserv{
     position: relative;
     display: flex;
-    height: 500px;
+    height: 550px;
     width: 70%;
     align-items: center;
 }
@@ -74,7 +74,7 @@ img{
 }
 
 
-@media (min-width: 720px){
+@media (max-width: 720px){
     .contenedor{
         top: 7.5vh;
     }
@@ -82,4 +82,15 @@ img{
     img{
         height: 100%;
     };
+    .contserv{
+        height: 500px;
+    }
+
+    .imagen{
+        height: 400px;
+    }
+    .bannerserv{
+        height: 2700px;
+        gap: 2rem;
+    }
 }

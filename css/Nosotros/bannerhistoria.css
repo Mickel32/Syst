@@ -18,7 +18,7 @@
     width: 75%;
     font-size: 1.2rem;
     color: rgb(255, 255, 255);
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 .imgHistoria{
@@ -29,7 +29,7 @@
     width: 100%;
 }
 
-@media (min-width: 720px){
+@media (max-width: 720px){
     .historia{
         height: 60vh;
     }
