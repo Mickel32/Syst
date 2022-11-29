@@ -74,3 +74,8 @@
 
 }
 
+@media (max-width: 1400px){
+    .contdatos p{
+        padding: 0;
+    }
+}
