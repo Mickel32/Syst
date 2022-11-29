@@ -2,11 +2,12 @@
 .equipo{
     display: flex;
     position: relative;
-    height: 500px;
+    height: 600px;
     width: 100%;
     padding: 0%;
     margin-bottom: 3%;
     gap: 5em;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -64,5 +65,12 @@
 .contdatos p{
     margin-top: .7em;
     text-align: justify;
+    padding: 7px;
+    line-height: 1.5rem;
+}
+
+.contdatos h4{
+    margin-top: .7em;
+
 }
 
