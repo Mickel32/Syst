@@ -45,6 +45,24 @@
 }
 
 .contdatos{
+    flex-direction: column;
+    position: relative;
+    display: flex;
     color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.contenido{
+    width: 25%;
+    align-items: center;
+    display: flex;
+    position: relative;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.contdatos p{
+    margin-top: .7em;
+    text-align: justify;
 }
 
